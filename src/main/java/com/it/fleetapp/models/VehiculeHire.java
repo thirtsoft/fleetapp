@@ -28,7 +28,7 @@ public class VehiculeHire {
     private int id;
 
     @ManyToOne
-    @JoinColumn(name="vehicleid", insertable=false, updatable=false)
+    @JoinColumn(name="vehiculeid", insertable=false, updatable=false)
     private Vehicule vehicule;
     private Integer vehiculeid;
 

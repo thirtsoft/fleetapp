@@ -24,9 +24,9 @@ public class VehiculeMaintenance extends Auditable<String> {
     private int id;
 
     @ManyToOne
-    @JoinColumn(name="vehicleid", insertable=false, updatable=false)
+    @JoinColumn(name="vehiculeid", insertable=false, updatable=false)
     private Vehicule vehicule;
-    private Integer vehicleid;
+    private Integer vehiculeid;
 
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date startDate;
